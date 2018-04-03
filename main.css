@@ -1,0 +1,192 @@
+/* Imported Fonts */
+
+@import url('https://fonts.googleapis.com/css?family=Merriweather:300,400,700,900|Roboto:300,400,500,700,900');
+
+/* Global Styles */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* Header Styles */
+header  {
+    background-image: linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.5)), url(bg.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+
+/* Navigation Styles */
+.main-nav {
+    float: right;
+    list-style: none;
+    margin-top: 30px;
+}
+
+.main-nav li {
+    display: inline-block;
+}
+
+.main-nav li a {
+    font-family: 'roboto', sans-serif;
+    color: #fff;
+    padding: 5px 20px;
+    text-decoration: none;
+    font-size: 15px;
+    text-transform: uppercase;
+}
+
+.main-nav li.active a {
+    border: 1px solid white;
+}
+
+.main-nav li:hover {
+    border: 1px solid white;
+}
+
+/* LOGO Styles */
+.logo {
+    width: 150px;
+    height: auto;
+    float: left;
+    margin-top: 15px;
+    text-transform: uppercase;
+}
+
+.logo p {
+    color: #fff;
+    font-family: 'roboto' , sans-serif;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+
+.logo p span.logo-color {
+    color: darkorange;
+    font-size: 25px;
+}
+
+/* Body Styles */
+.body {
+    font-family: 'merriweather' , sans-serif;
+}
+
+.row {
+    width: 1200px;
+    margin: auto;
+}
+
+/* Hero Styles */
+.hero {
+    position: absolute;
+    width: 1200px;
+    margin-left: 0;
+    margin-top: 0;
+}
+
+h1 {
+    color: #fff;
+    font-size: 70px;
+    text-align: center;
+    text-transform: uppercase;
+    margin-top: 275px;
+    font-weight: 400;
+}
+
+span.logo-color {
+    color: darkorange;
+}
+
+/* Button Styles */
+.button {
+    margin-top: 30px;
+    margin-left: 440px;
+}
+
+.btn {
+    border: 1px solid white;
+    padding: 10px 30px;
+    color: #fff;
+    text-decoration: none;
+    margin-right: 5px;
+    text-transform: uppercase;
+    font-size: 13px;
+
+}
+
+.btn-one {
+    background-color: darkorange;
+    font-family: 'roboto' , sans-serif;
+}
+
+.btn-two {
+    font-family: 'roboto' , sans-serif;
+
+}
+
+.btn-two:hover {
+    background-color: darkorange;
+    transition: all 0.4s ease-in;
+}
+
+/* Contact Section Styles */
+#contact {
+    text-align: center;
+    background-color: #fcfcfc;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+}
+
+.contact-title {
+    padding-top: 100px;
+    color: darkorange;
+    text-transform: uppercase;
+    transition: all 2s ease-in-out;
+}
+
+.contact-title h2 {
+    font-size: 50px;
+    line-height: 100px;
+    font-weight: 400;
+    
+}
+
+.contact h3 {
+    font-size: 20px;
+    font-weight: 200;
+}
+
+/* Contact Form  Styles */
+form {
+    margin-top: 50px;
+    transition: all 3s ease-in-out;
+}
+
+.form-control {
+    width: 600px;
+    border: none;
+    outline: none;
+    background: transparent;
+    border-bottom: 1px solid darkorange;
+    color: #194769;
+}
+
+input {
+    height: 45px;
+}
+
+form .submit {
+    background: darkorange;
+    border-color: transparent;
+    color: #fff;
+    font-size: 20px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    height: 50px;
+    margin-top: 20px;
+}
+
+form .submit:hover {
+    background-color: #194769;
+    cursor: pointer;
+}
